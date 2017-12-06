@@ -1,0 +1,30 @@
+{
+  "name": "promise.each",
+  "version": "0.0.1",
+  "description": "Call a function for each item in an array Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "BABEL_ENV=test babel-tap test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmanm/promise.each.git"
+  },
+  "keywords": [
+    "promise",
+    "each",
+    "series"
+  ],
+  "author": "salmanmitha@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salmanm/promise.each/issues"
+  },
+  "homepage": "https://github.com/salmanm/promise.each#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-tap": "^5.0.0"
+  }
+}
